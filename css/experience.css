@@ -1,0 +1,40 @@
+.experience{
+    padding: 5% 8%;
+    display: flex;
+    gap: 20px;
+    background-color: var(--primaryColor);
+}
+
+.experience-item{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.experience-item .ex1-text{
+    line-height: 30px
+}
+.experience-item .ex1-text h2{
+    margin: 10px 0;
+    color: var(--fontColor);
+}
+.experience-item .ex1-text h1{
+    font-size: 2rem;
+}
+
+.experience-item .experience-img img{
+    width: 100%;
+}
+.experience-item .ex2-text p{
+    color: var(--paragraphColor);
+}
+.experience-item .ex2-text ul{
+    margin-top: 35px;
+    list-style: none;
+}
+.experience-item .ex2-text ul li{
+    line-height: 35px;
+    color: var(--textColor);
+}
+.experience-item .ex2-text ul li::before{
+    content: "✅";
+}

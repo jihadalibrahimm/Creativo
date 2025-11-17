@@ -1,0 +1,124 @@
+/* Client Section */
+.client {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 10% 8%;
+    background: url("../images/adadad.jpg") center/cover no-repeat;
+    flex-wrap: wrap;
+}
+
+.client .client-says {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1 1 45%;
+}
+
+.client .client-says h2 {
+    color: var(--fontColor);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.client .client-says button {
+    width: 200px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    padding: 10px;
+    color: var(--textColor);
+    background-color: var(--fontColor);
+    border: none;
+    cursor: pointer;
+}
+
+.client .client-says button:hover {
+    background-color: var(--hoverColor);
+}
+
+.client .client-card {
+    padding: 20px;
+    background-color: #0000005e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 50%;
+    margin-top: 20px;
+}
+
+.client-card .card-image {
+    width: 100%;
+    position: relative;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.client-card .card-image img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.client-card .card-image h3 {
+    color: var(--textColor);
+    font-size: 1rem;
+}
+
+.client-card .card-image span {
+    color: var(--fontColor);
+}
+
+.client-card .card-image>i {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 3rem;
+    color: var(--fontColor);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .client {
+        padding: 8% 5%;
+        gap: 30px;
+    }
+    .client-card {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .client {
+        flex-direction: column;
+    }
+    .client .client-says, .client .client-card {
+        flex: 1 1 100%;
+    }
+    .client .client-says button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .client {
+        padding: 6% 3%;
+    }
+    .client .client-says h1 {
+        font-size: 1.5rem;
+    }
+    .client-card .card-image i {
+        font-size: 2rem;
+    }
+}
