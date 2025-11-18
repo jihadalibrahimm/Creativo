@@ -1,10 +1,10 @@
+## Live Demo
+[View Live Demo](https://jihadalibrahimm.github.io/Creativo/)
+
 # Criativo Website
 
 A creative agency website built with HTML and CSS.  
 Includes sections: Navbar, Hero, Services, About Us, Testimonial, Projects, Companies, Experience, Team, Work, Client, Blog, Contact, Footer.
-
-## Live Demo
-[]
 
 ## Features
 - Fully responsive layout
@@ -14,4 +14,4 @@ Includes sections: Navbar, Hero, Services, About Us, Testimonial, Projects, Comp
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <your-repo-link>
+   git clone https://github.com/jihadalibrahimm/Creativo.git
