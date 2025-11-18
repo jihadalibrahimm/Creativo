@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    padding: 10% 8%;
+    padding: 2% 8%;
     background-color: var(--secondaryColor);
     flex-wrap: wrap;
 }
@@ -19,7 +19,7 @@
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 10px;
 }
 
 .servicesContent span {
@@ -98,10 +98,11 @@
 }
 
 @media (max-width: 992px) {
+    
     .services {
         flex-direction: column;
-        gap: 40px;
-        padding: 15% 6%;
+        gap: 10px;
+        padding: 2% 6%;
     }
 
     .services .servicesContent,
