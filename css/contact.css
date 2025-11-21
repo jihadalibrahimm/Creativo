@@ -85,6 +85,9 @@
     border: none;
     border-radius: 5px;
 }
+.contactForm button {
+    background-color: var(--hoverColor);
+}
 
 .contactInfo .text span {
     color: var(--fontColor);
