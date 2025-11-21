@@ -85,7 +85,7 @@
     border: none;
     border-radius: 5px;
 }
-.contactForm button {
+.contactForm button:hover{
     background-color: var(--hoverColor);
 }
 
