@@ -4,7 +4,7 @@
 # Criativo Website
 
 A creative agency website built with HTML and CSS.  
-Includes sections: Navbar, Hero, Services, About Us, Testimonial, Projects, Companies, Experience, Team, Work, Client, Blog, Contact, Footer.
+Includes sections: Navbar _ Hero _ Services _ About Us _ Testimonial _ Projects _ Companies _ Experience _ Team Work _ Client _ Blog _ Contact _ Footer.
 
 ## Features
 - Fully responsive layout
